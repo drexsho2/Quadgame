@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Brain Rot Buster: Quadratic Quest</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>🧠 Brain Rot Buster</h1>
+
+  <div class="score-box">
+    <label for="playerName">Enter your name:</label>
+    <input type="text" id="playerName" placeholder="Your name" />
+    <h3>Points: <span id="score">0</span></h3>
+  </div>
+
+  <div class="question-box">
+    <div id="question">Loading...</div>
+    <div id="answers"></div>
+  </div>
+
+  <div class="character-box" id="characterBox" style="display:none;">
+    <h2>🎉 New Character Unlocked!</h2>
+    <p id="characterName"></p>
+    <p id="characterDesc"></p>
+  </div>
+
+  <div class="score-box" id="leaderboardBox">
+    <h2>🏆 Leaderboard</h2>
+    <ol id="leaderboard"></ol>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
